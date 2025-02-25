@@ -7,6 +7,7 @@ Camila ELizabeth Castillo Joya CJ220498
 📌 Descripción General
 
 Este proyecto es una aplicación web interactiva para la reserva de asientos en una sala de cine. Los usuarios pueden seleccionar una sala, elegir sus asientos disponibles y completar la compra de boletos. Una vez comprados, los asientos quedan bloqueados para futuras reservas.
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Características Principales
 
@@ -21,6 +22,7 @@ Este proyecto es una aplicación web interactiva para la reserva de asientos en 
 🖼️ Interfaz Dinámica y Estilizada: Diseño atractivo con organización clara de los asientos en la sala.
 
 🛒 Botón de Compra: Facilita la confirmación de la reserva con un solo clic.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Tecnologías Utilizadas
@@ -30,6 +32,7 @@ Este proyecto es una aplicación web interactiva para la reserva de asientos en 
 🎨 CSS para el diseño responsivo de los asientos y la sala.
 
 ⚡ Hooks de React (useState) para la gestión del estado de asientos y reservas.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 🎯 Objetivo del Proyecto
 
