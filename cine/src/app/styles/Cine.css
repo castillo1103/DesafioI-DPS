@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1{
+    color: black;
+    font-size: 3em;
+  }
+
+  h2{
+    color: black;
+  }
+  .p {
+    color: black;
+  }
+  
+  /* Estilos para la sala de cine */
+  .sala-cine {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  /* Estilos para los asientos */
+  .asiento {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .asiento.disponible {
+    background-color: #c123f1;
+    color: white;
+  }
+  
+  .asiento.ocupado {
+    background-color: #d32f2f;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  /* Estilos para el selector de sala */
+  .selector-sala button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ece366;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .selector-sala button.activo {
+    background-color: #ffee00;
+  }
+  
+  /* Estilos para el resumen de compra */
+  .resumen-compra {
+    color: black; /* Cambia el color del texto a negro */
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .btn-compra {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .btn-compra:hover {
+    background-color: #218838;
+  }
+  .corner-image {
+    position: absolute;
+    top: 10px;  /* Distancia desde la parte superior */
+    right: 10px; /* Distancia desde la derecha */
+    width: 80px; /* Ajusta el tamaño de la imagen según necesites */
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados opcional */
+  }
+  
+  .corner-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .corner-image img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
